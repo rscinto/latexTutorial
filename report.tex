@@ -1,0 +1,129 @@
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{pythonhighlight}
+\usepackage[margin=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage{graphicx,array}
+\usepackage{matlab-prettifier}
+\usepackage[labelformat=empty]{caption}
+\usepackage[export]{adjustbox}
+
+\newcommand{\subfigANDtitle}[2][.2\linewidth]{%
+\begin{tabular}{@{}>{\centering\arraybackslash}p{#1}@{}} #2 \end{tabular}}
+
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancyhf{}
+\lhead
+{
+     Rocco Name Last Name\\
+     EEC 100 -Lab \#1 \\
+}
+
+\rfoot{Page \thepage}
+
+\begin{document}
+
+\setlength{\headsep}{50pt}
+
+\vspace{10cm}
+
+	\paragraph{ Prelab}
+	{
+    Things and stuff. Mostly things though. 
+
+       $e^{i\pi}+1 = 0$
+  }
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{FE996B} 
+\textbf{kittens} & \textbf{pigs} & \textbf{chickens} & \textbf{dogs} & \textbf{Velociraptors} \\ \hline
+\textbf{1}       & \textbf{3}    & \textbf{2}        & \textbf{1231} & \textbf{1}             \\ \hline
+\textbf{}        & \textbf{}     & \textbf{}         & \textbf{}     & \textbf{}              \\ \hline
+\textbf{}        & \textbf{}     & \textbf{}         & \textbf{}     & \textbf{}              \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+
+	\paragraph{ para 1}
+	{
+    Things and stuff. Mostly things though. 
+  }
+
+	\paragraph{ Prelab}
+	{
+    Things and stuff. Mostly things though. 
+  }
+
+	\paragraph{ Prelab}
+	{
+    Things and stuff. Mostly things though. 
+  }
+
+
+%\begin{figure}[H]
+%\centering
+%\hspace*{-1cm}
+%  \includegraphics[width=\columnwidth]{simulation} %IMAGE NAME GOES HERE
+% \caption*{}
+%\end{figure}
+
+
+\newpage
+
+
+
+\begin{lstlisting}[style=Matlab-editor]
+%% Sample Matlab code
+!mv test.txt test2.txt
+A = [1, 2, 3;... foo
+     4, 5, 6];
+s = 'abcd';
+for k = 1:4
+  Disp(s(k)) % bar
+end
+%{
+create row vector x, then reverse it
+%}
+x = linspace(0,1,101);
+y = x(end:-1:1);
+\end{lstlisting}
+
+
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{FE996B} 
+\textbf{kittens} & \textbf{pigs} & \textbf{chickens} & \textbf{dogs} & \textbf{Velociraptors} \\ \hline
+\textbf{1}       & \textbf{3}    & \textbf{2}        & \textbf{1231} & \textbf{1}             \\ \hline
+\textbf{}        & \textbf{}     & \textbf{}         & \textbf{}     & \textbf{}              \\ \hline
+\textbf{}        & \textbf{}     & \textbf{}         & \textbf{}     & \textbf{}              \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+\end{document}
